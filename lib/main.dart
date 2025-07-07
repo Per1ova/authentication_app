@@ -11,6 +11,9 @@ import 'package:flutter/material.dart';
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
   );
+
+  //firebase function Aufgabe 2
+  
   
 final AuthRepository auth = FirebaseAuthRepository();
 
