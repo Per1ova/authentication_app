@@ -12,7 +12,7 @@ class FirestoreService {
       debugPrint("Collection: $collectionName has $count documents ");
       return count;
     } catch (e) {
-      debugPrint("Erros counting documents in $collectionName: $e");
+      debugPrint("Error counting documents in $collectionName: $e");
       return 0;
     }
   }
@@ -31,7 +31,7 @@ class FirestoreService {
         debugPrint("Document $documentId data: $data");
         return data;
       } else {
-        debugPrint("Document $documentId not exitst!");
+        debugPrint("Document $documentId not exist!");
         return null;
       }
     } catch (e) {
